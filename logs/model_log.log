@@ -1,0 +1,201 @@
+2022-08-30T06:55:36,641 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9000
+2022-08-30T06:55:36,645 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - [PID]54
+2022-08-30T06:55:36,645 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - Torch worker started.
+2022-08-30T06:55:36,645 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - Python runtime: 3.8.0
+2022-08-30T06:55:36,660 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9000.
+2022-08-30T06:55:36,685 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - model_name: densenet161, batchSize: 1
+2022-08-30T06:55:37,283 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - generated new fontManager
+2022-08-30T06:56:44,200 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9000
+2022-08-30T06:56:44,201 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - [PID]54
+2022-08-30T06:56:44,201 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - Torch worker started.
+2022-08-30T06:56:44,201 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - Python runtime: 3.8.0
+2022-08-30T06:56:44,213 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9000.
+2022-08-30T06:56:44,238 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - model_name: densenet161, batchSize: 1
+2022-08-30T06:56:44,704 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - generated new fontManager
+2022-08-30T06:57:02,225 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9000
+2022-08-30T06:57:02,226 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - [PID]54
+2022-08-30T06:57:02,226 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - Torch worker started.
+2022-08-30T06:57:02,227 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - Python runtime: 3.8.0
+2022-08-30T06:57:02,238 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9000.
+2022-08-30T06:57:02,264 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - model_name: densenet161, batchSize: 1
+2022-08-30T06:57:02,724 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - generated new fontManager
+2022-08-30T06:57:35,376 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9000
+2022-08-30T06:57:35,377 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - [PID]48
+2022-08-30T06:57:35,378 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Torch worker started.
+2022-08-30T06:57:35,378 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Python runtime: 3.8.0
+2022-08-30T06:57:35,389 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9000.
+2022-08-30T06:57:35,414 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - model_name: image_classifier, batchSize: 1
+2022-08-30T06:57:35,415 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-08-30T06:57:35,415 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-08-30T06:57:35,416 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_loader.py", line 100, in load
+2022-08-30T06:57:35,416 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-08-30T06:57:35,416 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_loader.py", line 162, in _load_handler_file
+2022-08-30T06:57:35,416 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-08-30T06:57:35,417 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-08-30T06:57:35,417 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-08-30T06:57:35,417 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-08-30T06:57:35,418 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-08-30T06:57:35,418 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+2022-08-30T06:57:35,418 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'image_classifier'
+2022-08-30T06:57:35,418 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - 
+2022-08-30T06:57:35,420 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - During handling of the above exception, another exception occurred:
+2022-08-30T06:57:35,420 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - 
+2022-08-30T06:57:35,421 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-08-30T06:57:35,421 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_service_worker.py", line 210, in <module>
+2022-08-30T06:57:35,421 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     worker.run_server()
+2022-08-30T06:57:35,421 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_service_worker.py", line 181, in run_server
+2022-08-30T06:57:35,421 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-08-30T06:57:35,422 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_service_worker.py", line 139, in handle_connection
+2022-08-30T06:57:35,422 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     service, result, code = self.load_model(msg)
+2022-08-30T06:57:35,422 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_service_worker.py", line 104, in load_model
+2022-08-30T06:57:35,422 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     service = model_loader.load(
+2022-08-30T06:57:35,422 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_loader.py", line 102, in load
+2022-08-30T06:57:35,423 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     module = self._load_default_handler(handler)
+2022-08-30T06:57:35,423 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_loader.py", line 167, in _load_default_handler
+2022-08-30T06:57:35,423 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name, "ts.torch_handler")
+2022-08-30T06:57:35,423 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-08-30T06:57:35,423 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-08-30T06:57:35,424 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-08-30T06:57:35,424 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-08-30T06:57:35,425 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+2022-08-30T06:57:35,425 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'ts.torch_handler./tmp/models/image_classifier'
+2022-08-30T06:57:36,976 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9000
+2022-08-30T06:57:36,977 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - [PID]96
+2022-08-30T06:57:36,978 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Torch worker started.
+2022-08-30T06:57:36,978 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Python runtime: 3.8.0
+2022-08-30T06:57:36,979 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9000.
+2022-08-30T06:57:36,990 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - model_name: image_classifier, batchSize: 1
+2022-08-30T06:57:36,991 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-08-30T06:57:36,992 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-08-30T06:57:36,992 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_loader.py", line 100, in load
+2022-08-30T06:57:36,992 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-08-30T06:57:36,992 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_loader.py", line 162, in _load_handler_file
+2022-08-30T06:57:36,993 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-08-30T06:57:36,993 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-08-30T06:57:36,993 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-08-30T06:57:36,993 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-08-30T06:57:36,994 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-08-30T06:57:36,994 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+2022-08-30T06:57:36,994 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'image_classifier'
+2022-08-30T06:57:36,994 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - 
+2022-08-30T06:57:38,535 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9000
+2022-08-30T06:57:38,536 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - [PID]117
+2022-08-30T06:57:38,536 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Torch worker started.
+2022-08-30T06:57:38,536 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Python runtime: 3.8.0
+2022-08-30T06:57:38,537 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9000.
+2022-08-30T06:57:38,548 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - model_name: image_classifier, batchSize: 1
+2022-08-30T06:57:38,549 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-08-30T06:57:38,549 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-08-30T06:57:38,549 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_loader.py", line 100, in load
+2022-08-30T06:57:38,550 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-08-30T06:57:38,550 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_loader.py", line 162, in _load_handler_file
+2022-08-30T06:57:38,550 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-08-30T06:57:38,550 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-08-30T06:57:38,550 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-08-30T06:57:38,551 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-08-30T06:57:38,551 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-08-30T06:57:38,551 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+2022-08-30T06:57:38,551 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'image_classifier'
+2022-08-30T06:57:38,552 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - 
+2022-08-30T06:57:38,552 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - During handling of the above exception, another exception occurred:
+2022-08-30T06:57:38,552 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - 
+2022-08-30T06:57:38,552 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-08-30T06:57:41,079 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9000
+2022-08-30T06:57:41,079 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - [PID]140
+2022-08-30T06:57:41,080 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Torch worker started.
+2022-08-30T06:57:41,080 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Python runtime: 3.8.0
+2022-08-30T06:57:41,081 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9000.
+2022-08-30T06:57:41,092 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - model_name: image_classifier, batchSize: 1
+2022-08-30T06:57:41,093 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-08-30T06:57:41,093 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-08-30T06:57:41,093 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_loader.py", line 100, in load
+2022-08-30T06:57:41,093 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-08-30T06:57:41,093 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_loader.py", line 162, in _load_handler_file
+2022-08-30T06:57:41,094 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-08-30T06:57:41,094 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-08-30T06:57:41,095 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-08-30T06:57:44,632 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9000
+2022-08-30T06:57:44,633 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - [PID]160
+2022-08-30T06:57:44,633 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Torch worker started.
+2022-08-30T06:57:44,633 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Python runtime: 3.8.0
+2022-08-30T06:57:44,634 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9000.
+2022-08-30T06:57:44,643 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - model_name: image_classifier, batchSize: 1
+2022-08-30T06:57:44,644 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-08-30T06:57:44,644 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-08-30T06:57:44,645 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_loader.py", line 100, in load
+2022-08-30T06:57:44,645 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-08-30T06:57:44,645 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_loader.py", line 162, in _load_handler_file
+2022-08-30T06:57:44,645 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-08-30T06:57:44,645 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-08-30T06:57:44,645 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-08-30T06:57:44,645 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-08-30T06:57:44,646 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-08-30T06:57:44,646 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+2022-08-30T06:57:44,646 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'image_classifier'
+2022-08-30T06:57:44,646 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - 
+2022-08-30T06:57:44,646 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - During handling of the above exception, another exception occurred:
+2022-08-30T06:57:44,646 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - 
+2022-08-30T06:57:44,646 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-08-30T06:57:44,646 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_service_worker.py", line 210, in <module>
+2022-08-30T06:57:44,646 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     worker.run_server()
+2022-08-30T06:57:44,647 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_service_worker.py", line 181, in run_server
+2022-08-30T06:57:44,647 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-08-30T06:57:44,647 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_service_worker.py", line 139, in handle_connection
+2022-08-30T06:57:50,173 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9000
+2022-08-30T06:57:50,173 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - [PID]184
+2022-08-30T06:57:50,173 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Torch worker started.
+2022-08-30T06:57:50,174 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Python runtime: 3.8.0
+2022-08-30T06:57:50,175 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9000.
+2022-08-30T06:57:50,183 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - model_name: image_classifier, batchSize: 1
+2022-08-30T06:57:50,184 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-08-30T06:57:50,184 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-08-30T06:57:50,184 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_loader.py", line 100, in load
+2022-08-30T06:57:50,184 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-08-30T06:57:50,184 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_loader.py", line 162, in _load_handler_file
+2022-08-30T06:57:50,184 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-08-30T06:57:50,184 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-08-30T06:57:50,184 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-08-30T06:57:50,184 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-08-30T06:57:50,184 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-08-30T06:57:50,185 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+2022-08-30T06:57:50,185 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'image_classifier'
+2022-08-30T06:57:50,185 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - 
+2022-08-30T06:57:50,185 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - During handling of the above exception, another exception occurred:
+2022-08-30T06:57:50,185 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - 
+2022-08-30T06:57:50,185 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-08-30T06:57:50,185 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_service_worker.py", line 210, in <module>
+2022-08-30T06:57:50,185 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     worker.run_server()
+2022-08-30T06:57:50,186 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_service_worker.py", line 181, in run_server
+2022-08-30T06:57:50,186 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     self.handle_connection(cl_socket)
+2022-08-30T06:57:58,710 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9000
+2022-08-30T06:57:58,711 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - [PID]204
+2022-08-30T06:57:58,711 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Torch worker started.
+2022-08-30T06:57:58,711 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Python runtime: 3.8.0
+2022-08-30T06:57:58,712 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9000.
+2022-08-30T06:57:58,722 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - model_name: image_classifier, batchSize: 1
+2022-08-30T06:57:58,723 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Backend worker process died.
+2022-08-30T06:57:58,723 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-08-30T06:57:58,723 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_loader.py", line 100, in load
+2022-08-30T06:57:58,724 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     module, function_name = self._load_handler_file(handler)
+2022-08-30T06:57:58,724 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_loader.py", line 162, in _load_handler_file
+2022-08-30T06:57:58,724 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     module = importlib.import_module(module_name)
+2022-08-30T06:57:58,724 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+2022-08-30T06:57:58,724 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     return _bootstrap._gcd_import(name[level:], package, level)
+2022-08-30T06:57:58,724 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+2022-08-30T06:57:58,724 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+2022-08-30T06:57:58,724 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+2022-08-30T06:57:58,724 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - ModuleNotFoundError: No module named 'image_classifier'
+2022-08-30T06:57:58,724 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - 
+2022-08-30T06:57:58,724 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - During handling of the above exception, another exception occurred:
+2022-08-30T06:57:58,725 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - 
+2022-08-30T06:57:58,725 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG - Traceback (most recent call last):
+2022-08-30T06:57:58,725 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_service_worker.py", line 210, in <module>
+2022-08-30T06:57:58,725 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -     worker.run_server()
+2022-08-30T06:57:58,725 [INFO ] W-9000-image_classifier_1.0-stdout MODEL_LOG -   File "/home/venv/lib/python3.8/site-packages/ts/model_service_worker.py", line 181, in run_server
+2022-08-30T06:58:17,147 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - Listening on port: /home/model-server/tmp/.ts.sock.9000
+2022-08-30T06:58:17,147 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - [PID]55
+2022-08-30T06:58:17,148 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - Torch worker started.
+2022-08-30T06:58:17,148 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - Python runtime: 3.8.0
+2022-08-30T06:58:17,160 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - Connection accepted: /home/model-server/tmp/.ts.sock.9000.
+2022-08-30T06:58:17,188 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - model_name: densenet161, batchSize: 1
+2022-08-30T06:58:34,644 [INFO ] W-9000-densenet161_1.0-stdout MODEL_LOG - Backend received inference at: 1661842714

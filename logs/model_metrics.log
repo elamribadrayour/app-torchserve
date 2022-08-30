@@ -1,0 +1,2 @@
+2022-08-30T06:58:37,027 - HandlerTime.Milliseconds:2382.65|#ModelName:densenet161,Level:Model|#hostname:148f9db9e5dd,requestID:6a0b484c-b18f-4778-8ce3-c57cce484195,timestamp:1661842717
+2022-08-30T06:58:37,030 - PredictionTime.Milliseconds:2382.71|#ModelName:densenet161,Level:Model|#hostname:148f9db9e5dd,requestID:6a0b484c-b18f-4778-8ce3-c57cce484195,timestamp:1661842717
